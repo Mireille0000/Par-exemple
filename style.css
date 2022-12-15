@@ -1,5 +1,5 @@
 :root {
-
+    --li_color: rgb(188, 169, 169);
 }
 
 html {
@@ -18,10 +18,24 @@ h2 {
     text-align: left;
 }
 
+body {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid firebrick;
+}
+
+footer {
+   background-color: var(--li_color); 
+}
+
+.table_of_contents {
+    width:22%;
+    display: inline-block;
+}
+
 .footer {
     width: 31%;
-    margin: 10px;
-    padding: 30px;
+    height: 100%;
     text-align: center;
     display: inline-block;
 }
@@ -39,6 +53,6 @@ h2 {
     margin-left: 50px;
     margin-right: 50px;
     padding: 10px;
-    background-color:  rgb(188, 169, 169);
+    background-color: var(--li_color);
     color:rgb(19, 103, 53)
 }
