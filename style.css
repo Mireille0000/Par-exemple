@@ -18,6 +18,13 @@ html {
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     line-height: 30px;
+
+    margin:0px;
+    padding: 0px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 h1, h3 {
@@ -64,16 +71,17 @@ li {
 }
 
 .container {
-    margin: 20px;
+    /* margin: 20px; */
     padding: 20px 40px;
     background-color: rgb(103, 161, 142);
 }
 
-.code {
+
+code {
+    max-width: 540px;
     width: 50%;
-    text-align: left;
-    margin-left: 20px;
-    margin-right: 20px;
+    /* margin-left: 20px;
+    margin-right: 20px; */
     padding: 10px;
     background-color: var(--li_color);
     color:rgb(19, 103, 53)
