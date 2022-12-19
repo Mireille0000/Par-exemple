@@ -2,7 +2,7 @@
     --li_color: rgb(188, 169, 169);
 }
 
-@media (max-width="550") {
+@media (max-width="1440") {
     body {
         text-align: center;
     }
@@ -22,6 +22,8 @@ body {
     margin:0px;
     padding: 0px;
 
+    min-height: 100vh;
+
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -35,9 +37,13 @@ h2 {
     text-align: left;
 }
 
-footer {
-   background-color: var(--li_color); 
+section {
+    padding-left: 10px;
 }
+
+/* footer {
+   background-color: var(--li_color); 
+} */
 
 .contents a {
     text-decoration: none;
@@ -68,11 +74,21 @@ li {
 
 .img {
     text-align: left;
+    padding-left: 10px;
 }
 
 .container {
-    /* margin: 20px; */
-    padding: 20px 40px;
+    max-width: 1440px;
+    margin: auto;
+    /* background-color: rgb(39, 174, 129); */
+}
+
+.cv {
+    margin: 0 auto;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: rgb(103, 161, 142);
 }
 
@@ -80,8 +96,6 @@ li {
 code {
     max-width: 540px;
     width: 50%;
-    /* margin-left: 20px;
-    margin-right: 20px; */
     padding: 10px;
     background-color: var(--li_color);
     color:rgb(19, 103, 53)
